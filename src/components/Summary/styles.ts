@@ -30,5 +30,17 @@ export const Container = styled.header`
       background: var(--green);
       color: var(--shape);
     }
+
+    &.greenlight-background {
+      background: #ddeeeb;
+      color: #60f0b4;
+      /* color: var(--text-title); */
+    }
+
+    &.redlight-background {
+      background: #f0dde4;
+      color: #ff9a97;
+      /* color: var(--text-title); */
+    }
   }
 `;
